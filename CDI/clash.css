@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Potta One", system-ui;
+}
+
+header {
+  background: #ffe91e;
+  padding: 15px;
+  display: flex;
+}
+
+/* bouton */
+.burgouzz {
+  width: 35px;
+  background-color: yellow;
+  border-color: rgb(255, 242, 0);
+}
+
+/* les 3 barres */
+.burgouzz div {
+    display: block;
+    height: 3px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #333;
+  display: none;
+  flex-direction: column;
+}
+.menu a {
+  color: white;
+  padding: 15px;
+  border-top: 1px solid #444;
+}
+.menu a:hover {
+  background: #444;
+}
+
+.menu.active {
+  display: flex;
+}
+
+
+body{
+    background-color: red;
+}
+
+h1{
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: gold;
+}
+
+.logococ{
+    text-align: center;
+}
+
+.concept{
+    display: flex;
+    align-items: center;
+}
+
+/*mise en forme des différent texte*/
+.texte{
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.image-1{
+    width: calc(100% / 2);
+}
+
+/*mise en forme des batiments*/
+.bat{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.bat-1{
+    width: calc(100% / 4);
+    height: 450px;
+    text-align: center;
+    margin: 50px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.bat-2{
+    width: calc(100% / 4);
+    height: 450px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.bat-3{
+    width: calc(100% / 4);
+    height: 450px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.bat-4{
+    width: calc(100% / 4);
+    height: 500px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.bat-5{
+    width: calc(100% / 4);
+    height: 500px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.bat-6{
+    width: calc(100% / 4);
+    height: 500px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.caserne{
+    display: flex;
+    text-align: center;
+}
+
+.cas-1{
+    width: calc(100% / 2);
+    height: 350px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.cas-2{
+    width: calc(100% / 2);
+    height: 350px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+/*mise en forme des héros*/
+.heros{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.roi{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+/*change la couleur de la boxe quand la souris passe dessus*/
+.roi:hover{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(230, 210, 31);
+}
+
+.reine{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.reine:hover{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(178, 9, 229);
+}
+
+.grand{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.grand:hover{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(233, 9, 185);
+}
+
+.heros_2{
+    display: flex;
+    text-align: center;
+}
+
+.champ{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.champ:hover{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(6, 33, 243);
+}
+
+.prince{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.prince:hover{
+    width: calc(100% / 5);
+    height: 250px;
+    margin: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(12, 170, 244);
+}
+
+.classe{
+    display: flex;
+    align-items: center;
+}
+
+.txt{
+    width: calc(100% / 2);
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 125);
+}
+
+.img{
+    width: calc(100% / 2);
+}
+
+.gdccapital{
+    display: flex;
+    text-align: center;
+}
+
+.gdc{
+    width: calc(100% /2);
+}
+
+.capital{
+    width: calc(100% / 2);
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+}
+
+.bouton{
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(136, 121, 121);
+}
+
+/* la c pour mettre le dark mode en place */
+body.dark {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+    header {
+        background-color: #333;
+        transition: 0.3s;
+    }
+
+    .burgouzz {
+        background-color: #575757;
+        border-color: #575757;
+        transition: 0.3s;
+    }
+    .burgouzz div{
+        background-color: white;
+        transition: 0.3s;
+    }
+    .texte {
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .txt{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-1{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-2{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-3{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-4{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-5{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .bat-6{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .cas-1{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .cas-2{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .roi{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .reine{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .grand{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .champ{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    .prince{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+}

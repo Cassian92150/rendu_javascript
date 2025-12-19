@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Potta One", system-ui;
+}
+
+body{
+    background-color: red;
+}
+
+
+
+header {
+  background: #ffe91e;
+  padding: 15px;
+  display: flex;
+}
+
+/* bouton */
+.burgouzz {
+  width: 35px;
+  background-color: yellow;
+  border-color: rgb(255, 242, 0);
+}
+
+/* les 3 barres */
+.burgouzz div {
+    display: block;
+    height: 3px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #333;
+  display: none;
+  flex-direction: column;
+}
+.menu a {
+  color: white;
+  padding: 15px;
+  border-top: 1px solid #444;
+}
+.menu a:hover {
+  background: #444;
+}
+
+.menu.active {
+  display: flex;
+}
+
+
+.debut{
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: gold;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.txt_hammer{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(141, 91, 187);
+}
+
+.world{
+    display: flex;
+    align-items: center;
+}
+
+.img_world{
+    width:calc(100% / 4);
+}
+
+.txt_world{
+    width: calc(100% / 1);
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(141, 91, 187);
+}
+
+.bouton{
+    width: 180px;
+    height: 60px;
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(136, 121, 121);
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+    header {
+        background-color: #333;
+        transition: 0.3s;
+    }
+
+    .burgouzz {
+        background-color: #575757;
+        border-color: #575757;
+        transition: 0.3s;
+    }
+    .burgouzz div{
+        background-color: white;
+        transition: 0.3s;
+    }
+
+    .txt_hammer{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+
+    .txt_world{
+        background-color: rgb(44, 38, 38);
+        border: solid white;
+        transition: 0.3s;
+    }
+    
+    .debut{
+        background-color: rgb(66, 58, 58);
+        border: 2px solid rgb(255, 255, 255);
+        transition: 0.3s;
+    }
+}
